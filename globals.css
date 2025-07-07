@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  --primary-color: #FF6B6B;  /* 小丸子裙子的红色 */
+  --secondary-color: #FFD93D; /* 小丸子上衣的黄色 */
+  --background-color: #FFF5E6; /* 温暖的米色背景 */
+  --text-color: #4A4A4A; /* 柔和的深灰色文字 */
+  --accent-color: #95E1D3; /* 清新的薄荷绿色调 */
+}
+
+@theme inline {
+  --color-background: var(--background-color);
+  --color-foreground: var(--text-color);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: "Comic Sans MS", "微软雅黑", sans-serif;
+}
+
+/* main.css 样式迁移自 practice/main.css */
+h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.maruko-card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.maruko-card:hover {
+  transform: translateY(-5px);
+}
+
+.maruko-button {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.maruko-button:hover {
+  background-color: #FF8585;
+  transform: scale(1.05);
+}
