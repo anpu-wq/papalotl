@@ -1,9 +1,12 @@
-这是一个[Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+这是一个基于Next.js构建的Web应用，整合了个人课程练习展示、WakaTime编码时长统计和QAnything智能问答服务。
+项目概述
 
-## Getting Started
 
-First, run the development server:
+本项目使用Next.js框架，结合HTML、CSS、JavaScript和React技术，实现了以下核心功能：
 
+课程练习展示：以组件化方式组织和展示所有课程练习
+编码时长统计：通过WakaTime API获取并展示个人编码时长数据
+智能问答服务：通过iframe嵌入QAnything提供的问答界面
 ```bash
 npm run dev
 # or
