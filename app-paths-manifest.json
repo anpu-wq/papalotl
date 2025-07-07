@@ -1,3 +1,19 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/practice/03-css-01/page": "app/practice/03-css-01/page.js",
+  "/practice/03-css-02/page": "app/practice/03-css-02/page.js",
+  "/practice/04-css-01/page": "app/practice/04-css-01/page.js",
+  "/practice/04-css-02-relative/page": "app/practice/04-css-02-relative/page.js",
+  "/practice/04-css-02/page": "app/practice/04-css-02/page.js",
+  "/practice/05-js-01/page": "app/practice/05-js-01/page.js",
+  "/practice/05-news01/page": "app/practice/05-news01/page.js",
+  "/practice/06-news01/page": "app/practice/06-news01/page.js",
+  "/practice/06-news02/page": "app/practice/06-news02/page.js",
+  "/practice/07-async-01/page": "app/practice/07-async-01/page.js",
+  "/practice/07-async-02/page": "app/practice/07-async-02/page.js",
+  "/practice/embed-demo/page": "app/practice/embed-demo/page.js",
+  "/practice/html-basics/page": "app/practice/html-basics/page.js",
+  "/practice/index/page": "app/practice/index/page.js",
+  "/practice/my-app/page": "app/practice/my-app/page.js"
 }
