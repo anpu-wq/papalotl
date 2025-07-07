@@ -1,6 +1,6 @@
-这是一个基于Next.js构建的Web应用，整合了个人课程练习展示、WakaTime编码时长统计和QAnything智能问答服务。
-项目概述
+这是一个以樱桃小丸子为主题的web前端学习项目，包含了QAnything智能问答服务等，画面色彩丰富且有趣，一起来学习前端开发技术吧。
 
+项目概述
 
 本项目使用Next.js框架，结合HTML、CSS、JavaScript和React技术，实现了以下核心功能：
 
