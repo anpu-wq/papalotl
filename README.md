@@ -4,24 +4,41 @@
 
 本项目使用Next.js框架，结合HTML、CSS、JavaScript和React技术，实现了以下核心功能：
 
+
 课程练习展示：以组件化方式组织和展示作业
+
+
 编码时长统计：通过WakaTime API获取并展示个人编码时长数据
+
+
 智能问答服务：通过iframe嵌入QAnything提供的问答界面
 
 
 
 QAnything集成路径
+
+
 选择路径：基础路径（HTML页面嵌入）
 
 实现细节：
+
+
 在/qanything路由下创建专用页面
 
 
 课程整合方式
+
 在/app/exercises目录下为每个练习创建独立路由
+
+
 使用Next.js的App Router实现路由管理
+
 在练习导航页（/exercises）提供所有练习的链接入口
+
+
 采用组件化开发思想，将重复UI元素抽象为可复用组件
+
+
 项目运行指南
 
 项目运行指南
