@@ -4,40 +4,36 @@
 
 本项目使用Next.js框架，结合HTML、CSS、JavaScript和React技术，实现了以下核心功能：
 
-课程练习展示：以组件化方式组织和展示所有课程练习
+课程练习展示：以组件化方式组织和展示作业
 编码时长统计：通过WakaTime API获取并展示个人编码时长数据
 智能问答服务：通过iframe嵌入QAnything提供的问答界面
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+
+
 
 QAnything集成路径
 选择路径：基础路径（HTML页面嵌入）
 
 实现细节：
-
 在/qanything路由下创建专用页面
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+课程整合方式
+在/app/exercises目录下为每个练习创建独立路由
+使用Next.js的App Router实现路由管理
+在练习导航页（/exercises）提供所有练习的链接入口
+采用组件化开发思想，将重复UI元素抽象为可复用组件
+项目运行指南
 
-To learn more about Next.js, take a look at the following resources:
+项目运行指南
+前提条件
+Node.js 18.x或更高版本
+npm包管理器
+WakaTime API密钥
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+运行截图
+![08ed9208c78cbd56533f7ec9490e5a0](https://github.com/user-attachments/assets/b3976d3d-35ec-42f5-9aea-e84168dbbeb4)
+![5e28f9ee9535d32c12db151826a650e](https://github.com/user-attachments/assets/281c8101-3635-479d-888a-f8b2cd4c7913)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![9065467334bad04765611ee5428f765](https://github.com/user-attachments/assets/b835038f-fa58-45c0-b7ed-d91bb48d97ae)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
